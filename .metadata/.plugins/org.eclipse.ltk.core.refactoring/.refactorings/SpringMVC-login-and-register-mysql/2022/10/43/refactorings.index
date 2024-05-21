@@ -1,0 +1,9 @@
+1666007068802	Delete element
+1666012721773	Move 'webapp' to 'main'
+1666012785007	Move 'web.xml' to 'webapp'
+1666012794547	Move 'home.jsp' to 'webapp'
+1666012829922	Move 'spring-web-servlet.xml' to 'webapp'
+1666012904687	Delete element
+1666012927863	Move 'register.jsp' to 'jsp'
+1666024293081	Move 'spring-web-servlet.xml' to 'WEB-INF'
+1666024296084	Move 'web.xml' to 'WEB-INF'

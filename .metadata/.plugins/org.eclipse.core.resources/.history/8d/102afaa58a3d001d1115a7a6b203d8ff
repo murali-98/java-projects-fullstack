@@ -1,0 +1,31 @@
+package com.dxc.HibernateCrud;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+
+import com.entity.Employee;
+import com.utility.HibernateUtil;
+
+public class Insert {
+	public static void main(String[] args)
+	{
+		SessionFactory factory = HibernateUtil.getSessionFactory();
+		Session ses = HibernateUtil.getSession();
+		try(factory;ses){
+			// begin the transaction
+			ses.beginTransaction();
+			
+			//create emp object
+			Employee emp = new Employee("John","DEV",50000.0);
+			//save
+			ses.save(emp);
+			
+			//commit transaction
+			ses.beginTransaction().commit();
+		}catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+		
+	}
+}

@@ -1,0 +1,11 @@
+package com.example.inversion_control;
+
+public class Oneplus implements Mobiles {
+
+	@Override
+	public void getModelAndColor() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

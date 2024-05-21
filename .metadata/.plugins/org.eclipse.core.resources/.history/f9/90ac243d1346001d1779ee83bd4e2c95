@@ -1,0 +1,14 @@
+package com.example.inversion_control;
+
+public class MobilesConfig {
+	
+	public Mobiles getOneplusObject()
+	{
+		return new Oneplus();
+	}
+
+	public Mobiles getIphoneObject()
+	{
+		return new Iphone();
+	}
+}

@@ -1,0 +1,15 @@
+package com.example.inversion_control;
+
+public class Oneplus implements Mobiles {
+	
+	Oneplus()
+	{
+		System.out.println("one plus costructor triggered");
+	}
+
+	public void getModelAndColor() {
+		// TODO Auto-generated method stub
+		System.out.println("Model :oneplus nord ce2");
+	}
+
+}

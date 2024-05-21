@@ -1,0 +1,37 @@
+package com.dxc.HibernateCrud;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+
+import com.entity.Employee;
+import com.utility.HibernateUtil;
+
+public class Update {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		SessionFactory factory = HibernateUtil.getSessionFactory();
+		Session ses = HibernateUtil.getSession();
+		try(factory;ses){
+			// begin the transaction
+			ses.beginTransaction();
+			
+			//get the emp with id 5
+			Employee emp= ses.get(Employee.class,"angela");
+			
+			//set the value
+			emp.setEmpId(2);
+			
+			
+			//commit transaction
+			ses.getTransaction().commit();
+		}catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+		
+
+	}
+
+}

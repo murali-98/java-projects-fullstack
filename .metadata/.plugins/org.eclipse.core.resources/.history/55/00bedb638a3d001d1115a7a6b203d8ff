@@ -1,0 +1,34 @@
+package com.dxc.HibernateCrud;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+
+import com.entity.Employee;
+import com.utility.HibernateUtil;
+
+public class Delete {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SessionFactory factory = HibernateUtil.getSessionFactory();
+		Session ses = HibernateUtil.getSession();
+		try(factory;ses){
+			// begin the transaction
+			ses.beginTransaction();
+			
+			//get emp
+			Employee emp = ses.get(Employee.class,4);
+		
+			//delete
+			ses.delete(emp);
+			
+			//commit transaction
+			ses.getTransaction().commit();
+		}catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+		
+	}
+
+}

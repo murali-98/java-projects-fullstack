@@ -1,0 +1,12 @@
+package com.example.inversion_control;
+
+public class Iphone implements Mobiles {
+
+    @Override
+	public void  getModelAndColor() {
+		// TODO Auto-generated method stub
+		System.out.println();
+
+	}
+
+}

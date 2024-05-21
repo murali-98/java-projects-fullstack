@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\mbr6\Desktop\Practprojects"/>
+			<item value="C:\Users\mbr6\Desktop\Practprojects\Hackerearthpractice"/>
+			<item value="C:\Users\mbr6\Desktop\Practprojects\HibernateCrud"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.exam"/>
+		</list>
+		<list key="groupId">
+			<item value="com.exam"/>
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Downloadedprojects\Emp-System"/>
+			<item value="C:\Downloadedprojects\Emp-Management"/>
+			<item value="C:\Downloadedprojects\reportserach_1"/>
+			<item value="C:\Downloadedprojects\spring-jsp-miniproject\spring-jsp-miniproject"/>
+			<item value="C:\Downloadedprojects\CRUDdemo1"/>
+			<item value="C:\Downloadedprojects\CRUDdemo"/>
+			<item value="C:\Downloadedprojects\spring-jsp-project"/>
+			<item value="C:\Downloadedprojects\SpringMVC"/>
+			<item value="C:\Downloadedprojects\spring mvc"/>
+			<item value="C:\Downloadedprojects\springboot-auditing"/>
+			<item value="C:\Downloadedprojects\Springboot-backendapp"/>
+			<item value="C:\Downloadedprojects\Springboot-backend"/>
+			<item value="C:\Downloadedprojects\mvc"/>
+			<item value="C:\Downloadedprojects\spring-jsp-demo"/>
+			<item value="C:\Downloadedprojects\spring-jsp-logindemo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>
